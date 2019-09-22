@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+  <link rel="stylesheet" href="./assets/css/styles.scss">
 </head>
 <body>
   <header>
@@ -20,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -36,24 +37,40 @@
   <main class="bg-light">
     <div class="container bg-white">
       <h2 class="text-primary">About Me</h2>
-      <div class="profile-badge">
-        <!-- <img src="./assets/images/ai-transcript.jpg" alt="" class="img-fluid"> -->
-        <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal"
-          data-theme="light" data-vanity="saltamay-software-engineer"><a class="LI-simple-link"
-            href='https://ca.linkedin.com/in/saltamay-software-engineer?trk=profile-badge'>Sal Tamay</a>
+      <div class="row">
+        <div class="d-md-none">
+          <div class="profile-badge-small col-12 col-md-6 d-flex justify-content-center">
+            <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal"
+              data-theme="light" data-vanity="saltamay-software-engineer"><a class="LI-simple-link"
+                href='https://ca.linkedin.com/in/saltamay-software-engineer?trk=profile-badge'>Sal Tamay</a>
+            </div>
+          </div>
         </div>
+        <div class="d-none d-md-block">
+          <div class="profile-badge-large col-12 col-md-6 d-flex justify-content-center">
+            <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical"
+              data-theme="dark" data-vanity="saltamay-software-engineer"><a class="LI-simple-link"
+                href='https://ca.linkedin.com/in/saltamay-software-engineer?trk=profile-badge'>Sal Tamay</a>
+            </div>
+          </div>
+        </div>
+        <div class="about-me jumbotron bg-white col-12 col-md-6">
+          <h4 class="font-weight-light">Hello, everyone!</h4>
+          <h1 class="font-weight-bold">My name is Sal</h1>
+          <p class="lead">I'm a full-stack software developer specializing in modern Javascript, React.js and Node.js. I also
+            write to
+            document my learning journey along the way.</p>
+          <hr class="my-4">
+          <p>I'm currently enrolled in B.S in Computing and Information Systems at Athabasca University and also attending a
+            bootcamp
+            at University of Toronto.</p>
+          <a class="btn btn-primary btn-lg" href="./contact.html" role="button">Connect</a>
+        </div>
+        
       </div>
-      <div class="about-me jumbotron bg-light">
-        <h4 class="font-weight-light">Hello, everyone!</h4>
-        <h1 class="font-weight-bold">My name is Sal</h1>
-        <p class="lead">I'm a full-stack software developer specializing in modern Javascript, React.js and Node.js. I also write to
-        document my learning journey along the way.</p>
-        <hr class="my-4">
-        <p>I'm currently enrolled in B.S in Computing and Information Systems at Athabasca University and also attending a
-        bootcamp
-        at University of Toronto.</p>
-        <a class="btn btn-primary btn-lg" href="./contact.html" role="button">Connect</a>
-      </div>
+      <div class="row">
+        
+      </div>  
     </div>
   </main>  
   <footer class="bg-secondary">
