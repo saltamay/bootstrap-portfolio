@@ -1,0 +1,18 @@
+/* Custome Styles */
+
+.site-wrapper {
+  min-height: 100%;
+  position: relative;
+  /* padding-bottom: 30px; */
+}
+
+.bottom-ruler {
+  border-top: 5px solid #0069D9;
+}
+
+footer {
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
